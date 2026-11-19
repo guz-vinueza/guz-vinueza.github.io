@@ -44,7 +44,7 @@ def write_library(videos):
     audit = []
     for video in matched:
         evidence = 'title' if CREDIT.search(video['title']) else 'description'
-        entries.append({'titulo': video['title'], 'url': 'https://youtu.be/' + video['id'], 'tema': topic(video['title']), 'coleccion': 'videos', 'fuente': 'Ferryfield Group'})
+        entries.append({'titulo': video['title'], 'url': 'https://youtu.be/' + video['id'], 'tema': topic(video['title']), 'coleccion': 'videos', 'fuente': 'Ferryfield Group', 'categoria': 'modelrisk' if 'modelrisk' in video['title'].lower() else 'safran-risk' if 'safran' in video['title'].lower() else 'otros'})
         audit.append({'id': video['id'], 'title': video['title'], 'credit_location': evidence})
     ids = {v['id'] for v in matched}
     # Preserve manual entries, speaking recordings and previously verified videos.

@@ -71,3 +71,10 @@ No se incluyeron estos cinco videos sin crédito de presentador en los metadatos
 - Introducing ModelRisk - Cost Estimation Model (`fzGq6e_jO6U`)
 - Moving from @RISK to ModelRisk - Basic Steps (`SndaJerhALA`)
 - Why switching from @RISK to ModelRisk is the smartest move (`zgufFwvZlfw`)
+
+
+## Acordeones de videos
+
+La biblioteca agrupa los 40 videos en ModelRisk (16), Safran Risk (14, incluido Safran Risk Manager) y Otros temas y herramientas (10). Cada grupo se abre por separado y permite cargar más videos dentro del grupo. Buscar abre las categorías con coincidencias. Las grabaciones de Charlas conservan su presentación independiente.
+
+En `videos-data.js`, usa `"categoria": "modelrisk"`, `"categoria": "safran-risk"` o `"categoria": "otros"`. Si no asignas categoría, la página la deduce del título y del tema. El importador también asigna categorías a los videos nuevos.
