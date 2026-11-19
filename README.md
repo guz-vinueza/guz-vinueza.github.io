@@ -51,3 +51,23 @@ Después de editar los textos españoles, actualiza también sus equivalentes in
 ## Estructura híbrida
 
 La navegación principal reúne Perfil ejecutivo (`perfil.html`), Publicaciones, Charlas y Consultoría. La portada presenta las cuatro áreas. Publicaciones destaca los dos libros reales y conserva la biblioteca de documentos; Charlas presenta temas e invitación a eventos; Consultoría conserva el vínculo de Ferryfield Group. Libros, videos y conversaciones siguen disponibles desde el pie de página. Todas las secciones tienen equivalentes en inglés.
+
+## Importar videos de Ferryfield
+
+Se revisaron 74 videos del canal el 18 de noviembre de 2026 y se encontraron 40 con crédito explícito a Guz/Gustavo Vinueza en el título o la descripción. La lista comparte esos 40 videos entre ambos idiomas. `youtube-import-report.json` registra las coincidencias y exclusiones sin copiar las descripciones completas.
+
+Para repetir la importación:
+
+```powershell
+python -m pip install yt-dlp
+python scripts/sync-youtube.py
+```
+
+El importador actualiza `videos-data.js`, evita duplicados y conserva entradas anteriores y grabaciones de charlas. Si falla la lectura de metadatos, no reemplaza la lista. Después revisa los cambios y súbelos a GitHub. Es una herramienta de actualización bajo demanda; no se ejecuta periódicamente ni desde el navegador del visitante.
+
+No se incluyeron estos cinco videos sin crédito de presentador en los metadatos consultados (pueden añadirse manualmente si confirmas tu participación):
+- Introduction to ModelRisk - Insurance Demo (`6NHOGQxYTBI`)
+- ModelRisk in the Oil & Gas industry (`5JatZFmgD-8`)
+- Introducing ModelRisk - Cost Estimation Model (`fzGq6e_jO6U`)
+- Moving from @RISK to ModelRisk - Basic Steps (`SndaJerhALA`)
+- Why switching from @RISK to ModelRisk is the smartest move (`zgufFwvZlfw`)
