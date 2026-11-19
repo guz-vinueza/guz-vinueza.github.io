@@ -17,27 +17,3 @@ const current = location.pathname.split('/').pop() || 'index.html';
 document.querySelectorAll('nav a').forEach(link => {
   if (link.getAttribute('href') === current) link.setAttribute('aria-current', 'page');
 });
-const search = document.querySelector('#search');
-let selectedFilter = 'all';
-function updateLibrary() {
-  const message = document.querySelector('.empty-state h3');
-  const query = search.value.trim();
-  message.textContent = english
-    ? (query ? `No publications found for “${query}”.` : selectedFilter === 'all' ? 'A library in the making.' : 'There are no publications in this topic yet.')
-    : (query ? `No hay publicaciones para «${query}».` : selectedFilter === 'all' ? 'Una biblioteca en construcción.' : 'Todavía no hay publicaciones en este tema.');
-}
-if (search) {
-  search.addEventListener('input', updateLibrary);
-  document.querySelectorAll('[data-filter]').forEach(button => {
-    button.addEventListener('click', () => {
-      selectedFilter = button.dataset.filter;
-      document.querySelectorAll('[data-filter]').forEach(item => {
-        const active = item === button;
-        item.classList.toggle('active', active);
-        item.setAttribute('aria-pressed', String(active));
-      });
-      updateLibrary();
-    });
-  });
-}
-

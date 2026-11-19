@@ -89,3 +89,10 @@ Se añadió el acordeón EALDE con 14 videos cuya descripción identifica explí
 ## Docencia / Teaching
 
 La sección `teaching.html` / `teaching-en.html` muestra los tres roles docentes facilitados por el usuario: EALDE (España, desde 2017), ESPOL (Ecuador, desde 2021) y Universidad de San Andrés (Argentina, desde 2024). Aparece antes de Consultoría / Consulting en todas las páginas.
+
+
+## Publicaciones de Google Scholar
+
+Se incorporaron los nueve registros visibles en el perfil https://scholar.google.com/citations?user=DULAPNkAAAAJ el 19 de noviembre de 2026: dos libros, un artículo y seis contribuciones a conferencias. La lista completa del perfil estaba cargada (botón de más registros desactivado).
+
+Edita `publications-data.js` para actualizar títulos, autores, referencias, año, tipo y enlace. Los autores se conservan tal como aparecen abreviados en el perfil. Las páginas de detalle no devolvieron metadatos utilizables; no se inventaron autores completos, DOI ni enlaces PDF. `publications.js` gestiona búsqueda y filtros en ambos idiomas. El HTML incluye los nueve enlaces como alternativa sin JavaScript. Los libros destacados siguen visibles al inicio.
