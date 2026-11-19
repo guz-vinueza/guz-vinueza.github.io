@@ -1,0 +1,79 @@
+{
+  "channel": "https://www.youtube.com/@EaldeEs",
+  "catalog_entries": 1892,
+  "candidate_descriptions_reviewed": 264,
+  "selection": "Project / MS Project / @RISK / Monte Carlo title clues; explicit Guz/Gustavo Vinueza credit required.",
+  "credited": 14,
+  "matches": [
+    {
+      "id": "ooLEbNqlwdM",
+      "title": "MS Project Básico: Una sesión paso a paso",
+      "credit_location": "description"
+    },
+    {
+      "id": "GCH2JuFAW1A",
+      "title": "Introducción al manejo cuantitativo de riesgos en proyectos",
+      "credit_location": "description"
+    },
+    {
+      "id": "DHxR5e3P3T0",
+      "title": "El reporting de Proyectos con MS Project y @RISK  Casos prácticos",
+      "credit_location": "description"
+    },
+    {
+      "id": "c1FayX9WugU",
+      "title": "Cómo gestionar riesgos en proyectos con @RISK  Ejemplos prácticos",
+      "credit_location": "description"
+    },
+    {
+      "id": "aGQBW2D35R8",
+      "title": "Introducción a la Simulación Monte Carlo con Proyectos en Microsoft Project",
+      "credit_location": "description"
+    },
+    {
+      "id": "pcP59GYara8",
+      "title": "Cómo gestionar proyectos con Microsoft Project: Primeros pasos",
+      "credit_location": "description"
+    },
+    {
+      "id": "dPXjrWA6Glw",
+      "title": "Consejos para la gestión de riesgos en Proyectos con el software @RISK",
+      "credit_location": "description"
+    },
+    {
+      "id": "KleOTjVaEKw",
+      "title": "Casos prácticos en Gestión de Riesgos en Proyectos con el software @RISK",
+      "credit_location": "description"
+    },
+    {
+      "id": "mr4Jdo_erZU",
+      "title": "Seguimiento y control de proyectos con MS Project",
+      "credit_location": "description"
+    },
+    {
+      "id": "GHmwGDBW__c",
+      "title": "Programación de tareas, costes y recursos con MS Project",
+      "credit_location": "description"
+    },
+    {
+      "id": "Yi6xgaiOL6s",
+      "title": "Primeros pasos para Microsoft Project",
+      "credit_location": "description"
+    },
+    {
+      "id": "2lsmvvRnPKk",
+      "title": "Ventajas de la Simulación Monte Carlo en Dirección de Proyectos",
+      "credit_location": "description"
+    },
+    {
+      "id": "3LzPoqvmScQ",
+      "title": "Software @RISK - Registro de Riesgos y Matriz de Correlación",
+      "credit_location": "description"
+    },
+    {
+      "id": "BESlvZVR428",
+      "title": "Cómo utilizar el software @RISK para la Gestión de Riesgos",
+      "credit_location": "description"
+    }
+  ]
+}

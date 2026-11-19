@@ -17,13 +17,15 @@
     } catch (_) { return null; }
   }
   function category(item) {
-    if (['modelrisk', 'safran-risk', 'otros'].includes(item.categoria)) return item.categoria;
+    if (['modelrisk', 'safran-risk', 'ealde', 'otros'].includes(item.categoria)) return item.categoria;
+    if (normalize(item.fuente).includes('ealde')) return 'ealde';
     const text = normalize(`${item.titulo} ${item.tema || ''}`);
     return text.includes('modelrisk') ? 'modelrisk' : text.includes('safran') ? 'safran-risk' : 'otros';
   }
   const groups = [
     {id: 'modelrisk', label: 'ModelRisk'},
     {id: 'safran-risk', label: 'Safran Risk'},
+    {id: 'ealde', label: en ? 'EALDE · Projects, MS Project & @RISK' : 'EALDE · Proyectos, MS Project y @RISK'},
     {id: 'otros', label: en ? 'Other topics & tools' : 'Otros temas y herramientas'}
   ];
   const entries = (window.VIDEOS || []).filter(item => (item.coleccion || 'videos') === grid.dataset.collection).map(item => ({...item, id: videoId(item.url)})).filter(item => item.id && item.titulo);

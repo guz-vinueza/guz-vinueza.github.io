@@ -78,3 +78,9 @@ No se incluyeron estos cinco videos sin crédito de presentador en los metadatos
 La biblioteca agrupa los 40 videos en ModelRisk (16), Safran Risk (14, incluido Safran Risk Manager) y Otros temas y herramientas (10). Cada grupo se abre por separado y permite cargar más videos dentro del grupo. Buscar abre las categorías con coincidencias. Las grabaciones de Charlas conservan su presentación independiente.
 
 En `videos-data.js`, usa `"categoria": "modelrisk"`, `"categoria": "safran-risk"` o `"categoria": "otros"`. Si no asignas categoría, la página la deduce del título y del tema. El importador también asigna categorías a los videos nuevos.
+
+## Videos de EALDE
+
+Se añadió el acordeón EALDE con 14 videos cuya descripción identifica explícitamente a Gustavo Vinueza como ponente. Se examinaron 1.711 videos y 181 archivos de transmisiones; se revisaron las descripciones de 264 candidatos con Proyectos / Project / @RISK / Monte Carlo en el título. La biblioteca tiene ahora 54 entradas. Los títulos se conservan en el idioma original; los controles están disponibles en español e inglés.
+
+`ealde-import-report.json` registra los títulos y la ubicación del crédito. Para repetir la búsqueda y actualizar la biblioteca: `python scripts/sync-ealde.py`. Requiere `yt-dlp` y acceso a internet. Conserva los videos de Ferryfield y las entradas manuales; no añade videos basándose únicamente en el tema. La búsqueda está limitada a esas pistas de título, por lo que no demuestra la ausencia de apariciones con títulos ajenos a esos temas.

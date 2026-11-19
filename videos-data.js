@@ -1,6 +1,5 @@
 // Edita esta lista para añadir videos. Conserva el formato JSON (comillas dobles).
-// Para charlas usa coleccion: "charlas".
-// categoria: "modelrisk", "safran-risk" u "otros" para organizar los acordeones.
+// categoria: "modelrisk", "safran-risk", "ealde" u "otros".
 window.VIDEOS = [
   {
     "titulo": "Introduction to ModelRisk by Guz Vinueza",
@@ -321,5 +320,117 @@ window.VIDEOS = [
     "coleccion": "videos",
     "fuente": "Ferryfield Group",
     "categoria": "modelrisk"
+  },
+  {
+    "titulo": "MS Project Básico: Una sesión paso a paso",
+    "url": "https://youtu.be/ooLEbNqlwdM",
+    "tema": "MS Project",
+    "coleccion": "videos",
+    "fuente": "EALDE Business School",
+    "categoria": "ealde"
+  },
+  {
+    "titulo": "Introducción al manejo cuantitativo de riesgos en proyectos",
+    "url": "https://youtu.be/GCH2JuFAW1A",
+    "tema": "Proyectos",
+    "coleccion": "videos",
+    "fuente": "EALDE Business School",
+    "categoria": "ealde"
+  },
+  {
+    "titulo": "El reporting de Proyectos con MS Project y @RISK  Casos prácticos",
+    "url": "https://youtu.be/DHxR5e3P3T0",
+    "tema": "@RISK",
+    "coleccion": "videos",
+    "fuente": "EALDE Business School",
+    "categoria": "ealde"
+  },
+  {
+    "titulo": "Cómo gestionar riesgos en proyectos con @RISK  Ejemplos prácticos",
+    "url": "https://youtu.be/c1FayX9WugU",
+    "tema": "@RISK",
+    "coleccion": "videos",
+    "fuente": "EALDE Business School",
+    "categoria": "ealde"
+  },
+  {
+    "titulo": "Introducción a la Simulación Monte Carlo con Proyectos en Microsoft Project",
+    "url": "https://youtu.be/aGQBW2D35R8",
+    "tema": "MS Project",
+    "coleccion": "videos",
+    "fuente": "EALDE Business School",
+    "categoria": "ealde"
+  },
+  {
+    "titulo": "Cómo gestionar proyectos con Microsoft Project: Primeros pasos",
+    "url": "https://youtu.be/pcP59GYara8",
+    "tema": "MS Project",
+    "coleccion": "videos",
+    "fuente": "EALDE Business School",
+    "categoria": "ealde"
+  },
+  {
+    "titulo": "Consejos para la gestión de riesgos en Proyectos con el software @RISK",
+    "url": "https://youtu.be/dPXjrWA6Glw",
+    "tema": "@RISK",
+    "coleccion": "videos",
+    "fuente": "EALDE Business School",
+    "categoria": "ealde"
+  },
+  {
+    "titulo": "Casos prácticos en Gestión de Riesgos en Proyectos con el software @RISK",
+    "url": "https://youtu.be/KleOTjVaEKw",
+    "tema": "@RISK",
+    "coleccion": "videos",
+    "fuente": "EALDE Business School",
+    "categoria": "ealde"
+  },
+  {
+    "titulo": "Seguimiento y control de proyectos con MS Project",
+    "url": "https://youtu.be/mr4Jdo_erZU",
+    "tema": "MS Project",
+    "coleccion": "videos",
+    "fuente": "EALDE Business School",
+    "categoria": "ealde"
+  },
+  {
+    "titulo": "Programación de tareas, costes y recursos con MS Project",
+    "url": "https://youtu.be/GHmwGDBW__c",
+    "tema": "MS Project",
+    "coleccion": "videos",
+    "fuente": "EALDE Business School",
+    "categoria": "ealde"
+  },
+  {
+    "titulo": "Primeros pasos para Microsoft Project",
+    "url": "https://youtu.be/Yi6xgaiOL6s",
+    "tema": "MS Project",
+    "coleccion": "videos",
+    "fuente": "EALDE Business School",
+    "categoria": "ealde"
+  },
+  {
+    "titulo": "Ventajas de la Simulación Monte Carlo en Dirección de Proyectos",
+    "url": "https://youtu.be/2lsmvvRnPKk",
+    "tema": "Monte Carlo",
+    "coleccion": "videos",
+    "fuente": "EALDE Business School",
+    "categoria": "ealde"
+  },
+  {
+    "titulo": "Software @RISK - Registro de Riesgos y Matriz de Correlación",
+    "url": "https://youtu.be/3LzPoqvmScQ",
+    "tema": "@RISK",
+    "coleccion": "videos",
+    "fuente": "EALDE Business School",
+    "categoria": "ealde"
+  },
+  {
+    "titulo": "Cómo utilizar el software @RISK para la Gestión de Riesgos",
+    "url": "https://youtu.be/BESlvZVR428",
+    "tema": "@RISK",
+    "coleccion": "videos",
+    "fuente": "EALDE Business School",
+    "categoria": "ealde"
   }
 ];
