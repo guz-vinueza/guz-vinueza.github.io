@@ -41,7 +41,7 @@ Los botones de contacto usan `mailto:gvinueza@gmail.com`: abren el correo del vi
 
 ## Idiomas y libros
 
-El sitio tiene ocho páginas en español y sus equivalentes `*-en.html` en inglés. El selector EN/ES lleva a la misma sección en el otro idioma. Ambos idiomas comparten estilos, tema y lista de videos. Los títulos originales de los videos se conservan.
+El sitio tiene nueve páginas en español y sus equivalentes `*-en.html` en inglés. El selector EN/ES lleva a la misma sección en el otro idioma. Ambos idiomas comparten estilos, tema y lista de videos. Los títulos originales de los videos se conservan.
 
 `libros.html` / `libros-en.html` incluyen los dos libros facilitados por el usuario y sus enlaces originales de Amazon. Los paneles tipográficos son elementos del diseño, no reproducciones de las portadas oficiales. Para añadir libros, edita las tarjetas de ambas páginas o actualiza la página española y el diccionario del generador inglés.
 
@@ -84,3 +84,8 @@ En `videos-data.js`, usa `"categoria": "modelrisk"`, `"categoria": "safran-risk"
 Se añadió el acordeón EALDE con 14 videos cuya descripción identifica explícitamente a Gustavo Vinueza como ponente. Se examinaron 1.711 videos y 181 archivos de transmisiones; se revisaron las descripciones de 264 candidatos con Proyectos / Project / @RISK / Monte Carlo en el título. La biblioteca tiene ahora 54 entradas. Los títulos se conservan en el idioma original; los controles están disponibles en español e inglés.
 
 `ealde-import-report.json` registra los títulos y la ubicación del crédito. Para repetir la búsqueda y actualizar la biblioteca: `python scripts/sync-ealde.py`. Requiere `yt-dlp` y acceso a internet. Conserva los videos de Ferryfield y las entradas manuales; no añade videos basándose únicamente en el tema. La búsqueda está limitada a esas pistas de título, por lo que no demuestra la ausencia de apariciones con títulos ajenos a esos temas.
+
+
+## Docencia / Teaching
+
+La sección `teaching.html` / `teaching-en.html` muestra los tres roles docentes facilitados por el usuario: EALDE (España, desde 2017), ESPOL (Ecuador, desde 2021) y Universidad de San Andrés (Argentina, desde 2024). Aparece antes de Consultoría / Consulting en todas las páginas.
