@@ -29,6 +29,7 @@
       const actions = document.createElement('div'); actions.className = 'publication-actions'; if (item.url) actions.append(externalLink(item.url, en ? 'View Scholar record' : 'Ver ficha en Scholar'));
       if (item.source === 'cv') { const source = document.createElement('p'); source.className = 'publication-venue'; source.textContent = en ? 'Listed in the author’s CV; external record not linked.' : 'Incluida en el CV del autor; sin enlace a ficha externa.'; content.append(source); }
       if (item.amazon) actions.append(externalLink(item.amazon, en ? 'View on Amazon' : 'Ver en Amazon'));
+      if (item.website) actions.append(externalLink(item.website, 'pmaihandbook.com'));
       content.append(actions); article.append(meta, content); list.append(article);
     });
     status.textContent = results.length ? (en ? `Showing ${results.length} of ${entries.length} publications.` : `Mostrando ${results.length} de ${entries.length} publicaciones.`) : (en ? 'No publications match your search and filter.' : 'No hay publicaciones que coincidan con la búsqueda y el filtro.');

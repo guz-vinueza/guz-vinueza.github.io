@@ -24,7 +24,8 @@ window.PUBLICATIONS = [
     "year": 2025,
     "tipo": "book",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DULAPNkAAAAJ&citation_for_view=DULAPNkAAAAJ:Wp0gIr-vW9MC",
-    "amazon": "https://amzn.eu/d/04xwsPi9"
+    "amazon": "https://amzn.eu/d/04xwsPi9",
+    "website": "https://pmaihandbook.com"
   },
   {
     "titulo": "(RISK-4616) Checklist for Integrated QRA Modeling",
