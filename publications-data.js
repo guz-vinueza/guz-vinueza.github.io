@@ -1,5 +1,4 @@
-// Publicaciones importadas del perfil público de Google Scholar el 19 de noviembre de 2026.
-// Conserva los títulos y autores originales. tipo: "book", "article" o "conference".
+// Public records supplemented with professional bibliography from the supplied CV.
 window.PUBLICATIONS = [
   {
     "titulo": "Cybersecurity for Founders : A practical Handbook",
@@ -45,7 +44,7 @@ window.PUBLICATIONS = [
   },
   {
     "titulo": "Fully Integrated Cost Schedule Model –  A Stochastic Alternative",
-    "autores": "L R., G Vinueza",
+    "autores": "Liwen Ren, Gustavo Vinueza",
     "referencia": "AACE International, 2017",
     "year": 2017,
     "tipo": "conference",
@@ -53,7 +52,7 @@ window.PUBLICATIONS = [
   },
   {
     "titulo": "Estimating Construction Costs in an Emerging and Unsophisticated Market",
-    "autores": "J Malo R., G Vinueza",
+    "autores": "Juan Malo, Gustavo Vinueza",
     "referencia": "AACE International, 2017",
     "year": 2017,
     "tipo": "conference",
@@ -61,7 +60,7 @@ window.PUBLICATIONS = [
   },
   {
     "titulo": "El Portafolio Inmobiliario como instrumento de inversión no tradicional en América Latina",
-    "autores": "J Malo R., V G.",
+    "autores": "Juan Malo, Gustavo Vinueza",
     "referencia": "Jornadas Financieras REDAFIN, 2015",
     "year": 2015,
     "tipo": "conference",
@@ -74,5 +73,21 @@ window.PUBLICATIONS = [
     "year": 2013,
     "tipo": "article",
     "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DULAPNkAAAAJ&citation_for_view=DULAPNkAAAAJ:u5HHmVD_uO8C"
+  },
+  {
+    "titulo": "Optimizing your Management Reserve",
+    "autores": "Gustavo Vinueza",
+    "referencia": "AACE, USA, 2019",
+    "year": 2019,
+    "tipo": "conference",
+    "source": "cv"
+  },
+  {
+    "titulo": "Allocating Probabilistic Contingency",
+    "autores": "Gustavo Vinueza",
+    "referencia": "AACE, USA, 2018",
+    "year": 2018,
+    "tipo": "conference",
+    "source": "cv"
   }
 ];

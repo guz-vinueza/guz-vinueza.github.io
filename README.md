@@ -96,3 +96,13 @@ La sección `teaching.html` / `teaching-en.html` muestra los tres roles docentes
 Se incorporaron los nueve registros visibles en el perfil https://scholar.google.com/citations?user=DULAPNkAAAAJ el 19 de noviembre de 2026: dos libros, un artículo y seis contribuciones a conferencias. La lista completa del perfil estaba cargada (botón de más registros desactivado).
 
 Edita `publications-data.js` para actualizar títulos, autores, referencias, año, tipo y enlace. Los autores se conservan tal como aparecen abreviados en el perfil. Las páginas de detalle no devolvieron metadatos utilizables; no se inventaron autores completos, DOI ni enlaces PDF. `publications.js` gestiona búsqueda y filtros en ambos idiomas. El HTML incluye los nueve enlaces como alternativa sin JavaScript. Los libros destacados siguen visibles al inicio.
+
+## Actualización desde CV (19 de noviembre de 2026)
+
+Se ampliaron Perfil ejecutivo, Consultoría y Docencia en español e inglés con la trayectoria profesional, formación académica y complementaria, experiencia docente, herramientas e idiomas del CV facilitado. Las fechas actuales reflejan el CV, sin una verificación independiente posterior. La fecha de Ingeniería de Sistemas no figura en el documento y se omitió.
+
+La biblioteca conserva los nueve registros de Scholar y añade dos contribuciones de AACE: Optimizing your Management Reserve (2019) y Allocating Probabilistic Contingency (2018). Estas entradas se identifican como procedentes del CV y no incluyen enlaces externos no verificados. Se completaron los nombres de coautores que el CV identifica en los registros de 2015 y 2017.
+
+Por privacidad no se incorpora el PDF original, el teléfono personal, los nombres de clientes ni métricas internas de ingresos, márgenes, presupuestos, conversión, equipos o rendimiento operativo. Se conserva el email de contacto que ya era público en el sitio.
+
+Validación: análisis de las 18 páginas HTML, resolución de enlaces y recursos locales, 11 publicaciones sin duplicados, sintaxis JavaScript y comprobación de diferencias. No se realizó revisión visual en navegador ni despliegue.
